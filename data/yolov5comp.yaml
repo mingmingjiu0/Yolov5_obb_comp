@@ -1,0 +1,13 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /home/hzm/Datasets/ # dataset root dir
+train: comp_train/images #images   # train images (relative to 'path') 
+val: comp_train/images #images  # val images (relative to 'path') 
+test: comp_train/images  #images # test images (optional)
+
+# Classes
+nc: 2  # number of classes
+names: ['ship','car']  # class names
+
+
+# Download script/URL (optional)
+# download: https://ultralytics.com/assets/coco128.zip
