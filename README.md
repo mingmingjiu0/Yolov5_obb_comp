@@ -51,9 +51,9 @@ And this repo has been rebuilt, Please see [GetStart.md](./docs/GetStart.md) for
 I have used utility functions from other wonderful open-source projects. Espeicially thank the authors of:
 
 * [ultralytics/yolov5](https://github.com/ultralytics/yolov5).
-* [hukaixuan19970627/yolov5_obb](https://github.com/hukaixuan19970627/yolov5_obb)
+* [hukaixuan19970627/yolov5_obb](https://github.com/hukaixuan19970627/yolov5_obb).
 * [自己改建YOLOv5旋转目标的踩坑记录](https://www.zhihu.com/column/c_1358464959123390464).
-* [配置torch1.13环境下nms](https://blog.csdn.net/code_zhao/article/details/129172817)
+* [配置torch1.13环境下nms](https://blog.csdn.net/code_zhao/article/details/129172817).
 
 ## 
 在使用中有任何问题，建议先按照[install.md](./docs/install.md)检查环境依赖项，再按照[GetStart.md](./docs/GetStart.md)检查使用流程是否正确.
