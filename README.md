@@ -33,11 +33,12 @@ ori_images -> splited_images -> model -> splited_labels -> merged_labels -> nms 
 
 # Drawbacks
 1. IR images perform bad both in train and test stages.
+2. labels are unbalanced. car_num >> ship_num
 
 # Future work
 1. RFLA: use gaussian representation instead of bbox_iou for better matching.
 
-(revised 08/17)
+(revised 08/18)
 
 # Yolov5 for Oriented Object Detection Competition
 The code for the implementation of “[Yolov5](https://github.com/ultralytics/yolov5) + [Circular Smooth Label](https://arxiv.org/abs/2003.05597v2)”. 
